@@ -22,4 +22,4 @@ def downloadImage(query, fileLocation, n=4):
 			raise e
       
       
-downloadImage("India", C:\Users\Roshan\Desktop, 10) #10 images will be downloaded 
+downloadImage("India", "C:\Users\Roshan\Desktop", 10) #10 images will be downloaded 
