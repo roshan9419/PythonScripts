@@ -9,7 +9,7 @@ def downloadImage(query, fileLocation, n=4):
 	src = result.content
 
 	soup = BeautifulSoup(src, 'html.parser')
-	imgTags = soup.find_all('img', class_='t0fcAb')
+	imgTags = soup.find_all('img', class_='yWs4tf') # old class name -> t0fcAb (Update this)
 
 	count=0
 	for i in imgTags:
